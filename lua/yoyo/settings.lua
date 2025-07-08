@@ -1,3 +1,6 @@
+vim.cmd("highlight Normal guibg=NONE ctermbg=NONE")
+vim.cmd("highlight NormalNC guibg=NONE ctermbg=NONE")
+vim.cmd("highlight SignColumn guibg=NONE ctermbg=NONE")
 -- Hint: use `:h <option>` to figure out the meaning if needed
 vim.g.mapleader = " "
 vim.opt.clipboard = 'unnamedplus' -- use system clipboard
